@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamires Confeitaria</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="bg-white text-white text-center p-1">
+        <img class="img-fluid max-width: 100% height:auto" src="img/Tamires.png">
+    </header>
+
+    <!-- A grey horizontal navbar that becomes vertical on small screens -->
+    <nav class="navbar navbar-expand-sm bg-info">
+        <div class="container-fluid justify-content-center">
+            <!-- Links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="paginas/galeria.html">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-info text-white dropdown-toggle" data-bs-toggle="dropdown">
+                            Cardápios
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="paginas/salgados.html">Salgados</a></li>
+                            <li><a class="dropdown-item" href="paginas/doces.html">Doces</a></li>
+                            <li><a class="dropdown-item" href="paginas/bolos.html">Bolos</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="paginas/cursos.html">Cursos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <img class="img-fluid max-width: 100% height:auto" src="img/main.png">
+
+        <section class="row">
+            <div class="col-md-6 col-lg-4 mt-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/salgados.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title text-left">Cardápio de Salgados</h4>
+                        <p class="card-text">Delicie-se com nossas coxinhas crocantes, pastéis para todos os gostos,
+                            empadas
+                            com recheios saborosos e irresistíveis bolinhas de queijo. Além disso, não deixe de
+                            experimentar
+                            nossos deliciosos quibes, uma opção perfeita para os amantes da culinária árabe. Combinamos
+                            ingredientes frescos e receitas saborosas.</p>
+                        <a href="paginas/salgados.html" class="btn btn-info text-white">Ver mais</a>
+                    </div>
+                </div><!--Fechamento do card-->
+            </div><!--Fechamento da coluna-->
+            <div class="col-md-6 col-lg-4 mt-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/doces.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title text-left">Cardápio de Doces</h4>
+                        <p class="card-text">Deleite-se com nossos cupcakes decorados com uma variedade de sabores e
+                            coberturas deliciosas, brigadeiros feitos com chocolate gourmet, trufas recheadas e bombons
+                            dos
+                            mais variados tipos. Cada doce é preparado com carinho, utilizando ingredientes de alta
+                            qualidade, resultando em sobremesas que são verdadeiras tentações.
+
+                        </p>
+                        <a href="paginas/doces.html" class="btn btn-info text-white">Ver mais</a>
+                    </div>
+                </div><!--Fechamento do card-->
+            </div><!--Fechamento da coluna-->
+            <div class="col-md-6 col-lg-4 mt-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/bolo.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title text-left">Cardápio de Bolos</h4>
+                        <p class="card-text">Desfrute de uma variedade de sabores, desde o clássico bolo de chocolate
+                            com
+                            cobertura de brigadeiro até o delicado bolo Red Velvet. Explore nossa seleção de bolos
+                            recheados, incluindo a irresistível torta de Marta Rocha e o saboroso Tiramisù. Nossos bolos
+                            são
+                            preparados com maestria e com os melhores ingredientes.</p>
+                        <a href="paginas/bolos.html" class="btn btn-info text-white">Ver mais</a>
+                    </div>
+                </div><!--Fechamento do card-->
+            </div><!--Fechamento da coluna-->
+        </section>
+
+        <button class="bg-info text-white rounded border p-2 mt-3 mx-auto d-block" data-bs-toggle="collapse"
+            data-bs-target="#demo">Clique aqui para deixar o seu comentário, é anônimo!</button>
+        <div id="demo" class="collapse">
+            <section id="comentario">
+                <label for="mensagem">Comentário anônimo:</label>
+                <textarea class="form-control" name="" id="mensagem" cols="30" rows="5">
+        </textarea>
+                <button class="btn btn-info text-white mt-3" type="submit">Enviar</button>
+            </section>
+        </div>
+
+    </main>
+
+    <footer class="bg-info text-white text-center mt-3 pt-3 pb-1 align-items-center">
+        <p>&copy; Todos os direitos reservados!</p>
+    </footer>
+
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
